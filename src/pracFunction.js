@@ -10,5 +10,13 @@ function sumArray(numbers) {
 }
 const total = sumArray([1, 2, 3]);
 console.log(total);
-
-
+// 함수에서 아무것도 반환하지 않은 경우
+function returnNotthing() {
+    console.log('어쩌구');
+    // return true; // 에러
+}
+returnNotthing();
+// 함수에서 숫자 or 문자 
+function returnStringOrNumber() {
+    return 4;
+}
